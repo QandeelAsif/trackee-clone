@@ -36,21 +36,19 @@ mkdir android\app\src\main\assets
 
 react-native bundle --platform android --dev false --entry-file index.js --bundle-output android\app\src\main\assets\index.android.bundle --assets-dest android\app\src\main\res
 
-{  
-
-            (if this causes regular expression error: or Invalid regular expression: /(.*\\__fixtures__\\.*|node_modules[\\\]react[\\\]dist[\\\].*|website\\node_modules\\.*|heapCapture\\bundle\.js|.*\\__tests__\\.*)$/: Unterminated character class. Run CLI with --verbose flag for more details.)
+**** (if this causes regular expression error: or Invalid regular expression: /(.*\\__fixtures__\\.*|node_modules[\\\]react[\\\]dist[\\\].*|website\\node_modules\\.*|heapCapture\\bundle\.js|.*\\__tests__\\.*)$/: Unterminated character class. Run CLI with --verbose flag for more details.)  **********
 
 
-             try:
+  try:
+{project_root}\node_modules\metro-config\src\defaults\blacklist.js
 
-            {project_root}\node_modules\metro-config\src\defaults\blacklist.js
-
-          change blacklist variable to: var sharedBlacklist = [
-          /node_modules[\/\\]react[\/\\]dist[\/\\].*/,
-          /website\/node_modules\/.*/,
-          /heapCapture\/bundle\.js/,
-          /.*\/__tests__\/.*/ ];
-}
+ change blacklist variable to:
+ 
+ var sharedBlacklist = [
+ /node_modules[\/\\]react[\/\\]dist[\/\\].*/,
+  /website\/node_modules\/.*/,
+  /heapCapture\/bundle\.js/,
+ /.*\/__tests__\/.*/ ];
 
 react-native run-android
 

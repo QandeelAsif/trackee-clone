@@ -15,6 +15,15 @@ WHAT IS NOT HAPPENING AND NEEDS TO HAPPEN?
 - Real-time data push-ing to PubNub 
   (for now nothing is being pushed to db as the app is not detecting location changes. Once it does that it is expected to auto-push the coords)
   
+  
+PUBNUB account credentials:
+sigin to google with following: 
+
+asif4004104@cloud.neduet.edu.pk
+
+CT-029(TCIT)
+ 
+  
  REACT NATIVE SETUP ON PHYSICAL DEVICE
  
  - Have phone in developer mode 

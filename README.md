@@ -2,11 +2,6 @@
 
 > A Realtime location tracking app for [article](https://www.sitepoint.com/react-native-pubnub-real-time-location-tracking/) published on SitePoint. This app is one of the two location tracking app. This app will be tracked by the [Tracker](https://github.com/vikrantnegi/tracker-app) app.
 
-
-# Clone the repo
-
-```bash
-$ git clone https://github.com/vikrantnegi/trackee-app.git
 ```
 
 # Install the dependencies
@@ -26,6 +21,4 @@ $ react-native run-ios
 $ react-native run-android
 ```
 
-# License
-
-MIT © [Vikrant Negi](https://github.com/vikrantnegi)
+CHECK REPO IN MAIN BRANCH 
